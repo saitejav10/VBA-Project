@@ -14,7 +14,7 @@ Sub stockvol1():
         r = 2
     
         ws.Range("I1").Value = "Ticker"
-        ws.Range("J1").Value = "Total Stock Volume"
+        ws.Range("J1").Value = "Total Volume"
         ws.Range("K1").Value = "Yearly Change"
         ws.Range("L1").Value = "Percent Change"
         
