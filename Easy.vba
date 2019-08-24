@@ -9,7 +9,6 @@ Sub stockvol():
 
         ws.Range("I1").Value = "Ticker"
         ws.Range("J1").Value = "Total Stock Volume"
-
         
         lastrow = Cells(Rows.Count, "A").End(xlUp).Row
 
@@ -25,7 +24,6 @@ Sub stockvol():
                 
                 j = j + 1
                 totalvol = 0
-
              
             End If
 
